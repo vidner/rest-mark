@@ -10,7 +10,7 @@ $ pip install -r requirements.txt
 $ python3 rest-mark.py --help
 Usage: rest-mark.py [OPTIONS] METHOD
 
-  avaiable methods : get,post,put,delete
+  available methods : get,post,put,delete
 
 Options:
   -n, --count INTEGER   number of request

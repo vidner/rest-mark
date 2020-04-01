@@ -147,7 +147,7 @@ def rest_mark(count, method, url, single, worker, data, headers):
             res = {k: v for d in range(len(key)) for k, v in zip(key,val)}
             summary(time_taken,count,res)
     else:
-        print("avaiable methods : get,post,put,delete")
+        print("available methods : get,post,put,delete")
 if __name__ == '__main__':
     rest_mark()
 

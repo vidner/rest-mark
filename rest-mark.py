@@ -48,7 +48,7 @@ def put(req):
 @click.argument('method')
 def rest_mark(count, method, url, single, worker, data, headers):
     """
-    avaiable methods : get,post,put,delete
+    available methods : get,post,put,delete
     """
     req = [[url,headers,data]]*count
     if method=="get":
